@@ -1,0 +1,15 @@
+* {
+    font: Verdana, Arial;
+}
+
+h2 {
+    color : #003ca4;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#top {
+    background-color: rgb(218, 218, 218);
+}
