@@ -1,4 +1,6 @@
 # My Website
-My website with some info on myself and projects I've done.
+A simple website with some info on myself and projects I've done.
 
-Mainly used as practice for learning basic HTML web development.
+A practice project for learning basic HTML web development.
+I'm currently going through a HTML & CSS book, and I just need
+something to apply my skills to.
