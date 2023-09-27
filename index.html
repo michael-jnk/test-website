@@ -1,50 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
     <head>
         <title>Michael J's Website</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="michael-jnk's HTML practice website">
+        <meta name="author" content="michael-jnk">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
         <h1 id="top">Michael's Website</h1>
-        <h2>About Me:</h2>
-        <img src="images/UNC_logo.png" height="48" width="61" alt="UNC logo">
-        <p>
-            My name is Michael, and I am a current student at
-            UNC Chapel Hill, studying computer science.
-        </p>
-        <h2 id="experience">Experience:</h2>
-        <p>
-            In the past, I've used Java, Python, and C# for various
-            high school classes and personal projects. I've done some basic
-            game development in Unity, and during a summer program I've
-            made a convoluted neural network in Python to classify
-            pictures of skin cancer.
-        </p>
-        <p>
-            Currently I'm learning the basics of HTML, CSS, and JS, as well
-            as React.
-        </p>
-        <h2 id="projects">Projects:</h2>
-        <p>
-            My previous projects include simple games made in Java with
-            Java graphics, multiple unfinished Unity projects, and the
-            CNN my group & I made during our summer camp.
-        </p>
-        <h2 id="contact me">Contact Me:</h2>
-        <form action="" method="post"> <!-- Not functional, just for practice purposes -->
-            <fieldset>
-                <!-- <a href="mailto:140859932+michael-jnk@users.noreply.github.com">Contact Me</a><br \> -->
-                <legend>Connect with me!</legend>
-                <label>Name: <br \><input type="text" name="name" required="required"></label><br \>
-                <label>Email: (optional)<br \><input type="email" name="email"></label><br \>
-                <label>Message: <br \>
-                    <textarea name="message" required="required" maxlength="500">Enter your message...</textarea></label><br \>
-                <input type="submit" name="subscribe" value="Send Message">
-                <input type="hidden" name="platform" value="get platform"> <!--will update once I learn how-->
-            </fieldset>
-        </form>
-        <a href="https://github.com/Michael-Jenk">My Github</a><br \>
+        <div id="about_me">
+            <h2>About Me:</h2>
+            <img src="images/UNC_logo.png" height="48" width="61" alt="UNC logo">
+            <p>
+                My name is Michael, and I am a current student at
+                UNC Chapel Hill, studying computer science.
+            </p>
+        </div>
+        <div id="experience">
+            <h2>Experience:</h2>
+            <p>
+                In the past, I've used Java, Python, and C# for various
+                high school classes and personal projects. I've done some basic
+                game development in Unity, and during a summer program I've
+                made a convoluted neural network in Python to classify
+                pictures of skin cancer.
+            </p>
+            <p>
+                Currently I'm learning the basics of HTML, CSS, and JS, as well
+                as React.
+            </p>
+        </div>
+        <div id="projects">
+            <h2 id="projects">Projects:</h2>
+            <p>
+                My previous projects include simple games made in Java with
+                Java graphics, multiple unfinished Unity projects, and the
+                CNN my group & I made during our summer camp.
+            </p>
+        </div>
+        <div id="contact_me">
+            <h2>Contact Me:</h2>
+            <form action="" method="post"> <!-- Not functional, just for practice purposes -->
+                <fieldset>
+                    <!-- <a href="mailto:140859932+michael-jnk@users.noreply.github.com">Contact Me</a><br \> -->
+                    <legend>Connect with me!</legend>
+                    <label>Name: <br \><input type="text" name="name" required="required"></label><br \>
+                    <label>Email: (optional)<br \><input type="email" name="email"></label><br \>
+                    <label>Message: <br \>
+                        <textarea name="message" required="required" maxlength="500">Enter your message...</textarea></label><br \>
+                    <input type="submit" name="subscribe" value="Send Message">
+                    <input type="hidden" name="platform" value="get platform"> <!--will update once I learn how-->
+                </fieldset>
+            </form>
+        </div>
+        <a href="https://github.com/Michael-Jenk">My Github</a><br \> <!--add github image-->
         <a href="#top">Back to top</a>
     </body>
 
