@@ -61,6 +61,7 @@ div {
     bottom:0;
     right:0;
     background-color: #ffffff;
+    text-align: right;
 }
 
 a:hover {
