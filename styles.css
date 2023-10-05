@@ -1,38 +1,66 @@
 * {
-    font: Verdana, Arial;
+    font-family: Verdana, Arial, serif;
 }
 
 h2 {
     color : #003ca4;
     margin:5px;
+    font-size:140%;
+    text-transform:uppercase;
 }
 
 body {
     background-color: #ffffff;
     margin:0px;
+    > :hover {
+        border: 4px solid #003ca4;
+        padding:2px;
+    }
     > :nth-of-type(2) {
-        margin-top: 50px;
+        margin-top: 56px;
+    }
+    > :nth-last-child(2) {
+        margin-bottom: 65px;
     }
 }
 
 #top {
     background-color: #78d4ff;
-    border: 0px solid #005299;
+    border: 3px outset #005299;
     padding:3px;
     margin:0;
     margin-bottom:20px;
     top:0;
+    right:0;
+    left:0;
     position:fixed;
-    width:100%;
+    height:40px;
+
+    text-shadow: 0px 0px 3px #004b6c;
+    text-transform:capitalize;
+
+    border-bottom-left-radius: 10px;;
+    border-bottom-right-radius: 10px;
 }
 
 div {
     border: 2px solid black;
-    margin: 1px;
+    margin: 2px;
+    padding:4px;
     margin-bottom: 10px;
     > :not(h2) {
         margin:1px;
     }
+
+    box-shadow: 0 0 4px;
+    border-radius: 2px;
+}
+
+#bottom {
+    position:fixed;
+    bottom:0;
+    right:0;
+    background-color: #ffffff;
 }
 
 a:hover {
